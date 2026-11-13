@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&family=Roboto:ital,wght@0,100..900;1,100..900&family=Space+Grotesk:wght@300..700&display=swap%22"
+    rel=stylesheet>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap"
+    rel="stylesheet">
+
+  <title>Aula WEB Front-End</title>
+  <link href="css/estilo.css" rel="stylesheet" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+  <header class="cabecalho"> <!--Cabeçalho do conteudo da pagina -->
+    <div class="container">
+      <a href="#" class="nome">&lt;<span>Henrique</span>/&gt;</a>
+      <nav class="menu"> <!--Area de navegação / menu -->
+        <a href="#sobre">Sobre</a>
+        <a href="#formacao">Formação</a>
+        <a href="cursos">Cursos</a>
+        <a href="projetos">Projetos</a>
+        <a href="contatos">Contatos</a>
+      </nav>
+      <button class="menu-toggle" aria-label="Abrir menu">☰</button>
+    </div>
+  </header>
+  <main> <!-- Conteudo principal da pagina -->
+    <section class="apresentacao"> <!-- Area de Apresentação -->
+      <div class="container"> <!--DIV GERAL -->
+        <div class="apresentacaotexto"> <!-- DIV de texto -->
+          <span class="tag-secao">&lt;Hello world/&gt;</span>
+
+          <p class="saudacao" id="saudacao"></p>
+          <h1 class="apresentacaotitulo">Henrique <span class="destaque">Sousa</span></h1>
+          <h3 class="apresentacaocargo">Desenvolvedor Full-Stack em formação</h3>
+          <p class="apresentacaobio">Estudante de GTI e ADS</p>
+
+          <div class="apresentacaobotoes"> <!--DIV dos botoes-->
+            <a href="#" class="botoes botoes-primario">Ver projetos</a>
+            <a href="#" class="botoes botoes-secundario">Fale comigo</a>
+          </div>
+        </div>
+        <div class="apresentacao-foto"> <!--div de imagem-->
+          <img src="https://uploads.onecompiler.io/44zmg33j4/44zmjvkjy/Image%20(1).png" width="100%" />
+        </div>
+      </div>
+    </section>
+    <section class="sobre" id="sobre">
+      <div class="container">
+        <span class="tag-secao">&lt;sobre-mim&gt;</span>
+        <h2 class="titulo-secao">Um pouco sobre mim</h2>
+        <p class="subtitulo-secao">Quem está por trás do código.</p>
+        <div class="sobre-grid">
+          <div class="sobre-texto">
+            <p>
+              Sou um profissional focado em construir a ponte entre a tecnologia e a gestão estratégica de negócios.
+              Minha trajetória me ensinou que não basta apenas escrever um bom código ou estruturar uma rede;
+              é preciso entender a operação do dia a dia,
+              organizar processos e entregar soluções que gerem resultados práticos.
+              Com base em vivências que vão desde rotinas administrativas em ambientes complexos até o suporte na gestão
+              comercial,
+              direciono minha atuação técnica — seja desenvolvendo sistemas ou configurando infraestrutura — para
+              resolver problemas com eficiência e uma atenção rigorosa aos detalhes.
+            </p>
+            <p>
+              Quando não estou focado em tecnologia ou planejamento de projetos, gosto de manter o equilíbrio entre o
+              mundo digital e a saúde física.
+              Para balancear as horas na frente das telas, levo a sério minha rotina de treinos e alimentação,
+              aplicando a mesma disciplina e consistência que uso nos estudos de TI para alcançar meus objetivos e
+              recarregar as energias.
+            </p>
+          </div>
+          <ul class="info-rapida">
+            <li><span class="rotulo">localização</span> São Paulo, SP</li>
+            <li><span class="rotulo">e-mail</span> riquesousa362@gmail.com</li>
+            <li><span class="rotulo">foco</span> Full-stack</li>
+            <li><span class="rotulo">idiomas</span> Inglês, Espanhol</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <!-- ======================= FORMAÇÃO ACADÊMICA ======================= -->
+    <section class="formacao" id="formacao">
+      <div class="container">
+        <span class="tag-secao">&lt;formacao-academica&gt;</span>
+        <h2 class="titulo-secao">Formação acadêmica</h2>
+        <p class="subtitulo-secao">Minha trajetória de estudos até aqui.</p>
+
+        <ul class="linha-tempo">
+          <li class="item-tempo">
+            <p class="periodo">2024 — 2026</p>
+            <h3>Gestão de T.I.</h3>
+            <p class="instituicao">Faculdade de Tecnologia de São Paulo (FATEC)</p>
+            <p>Curso técnico superior com foco na área de T.I.
+              para gestão. A formação une o desenvolvimento de soluções tecnológicas ao alinhamento
+              estratégico de negócios, com o objetivo principal de otimizar processo,
+              aplicar metodologias ágeis e garantir uma governança de TI eficiente.</p>
+          </li>
+
+          <li class="item-tempo">
+            <p class="periodo">2026 — Atual</p>
+            <h3>Análise e Desenvolvimento de Sistemas</h3>
+            <p class="instituicao">SENAI Vila Mariana</p>
+            <p>O curso forma profissionais com forte base técnica para projetar, documentar, testar e implementar
+              sistemas de
+              software. A matriz curricular tem um foco prático intenso, passando por linguagens de programação,
+              arquitetura
+              de sistemas, engenharia de requisitos e gestão de banco de dados. O objetivo principal é desenvolver a
+              capacidade de traduzir necessidades complexas em código estruturado, criando aplicações eficientes e
+              inovadoras
+              para o mercado de tecnologia.</p>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <!-- ======================= CURSOS ======================= -->
+    <section class="cursos" id="cursos">
+      <div class="container">
+        <span class="tag-secao">&lt;cursos-e-certificados&gt;</span>
+        <h2 class="titulo-secao">Cursos e certificados</h2>
+        <p class="subtitulo-secao">O que venho estudando por conta própria.</p>
+
+        <div class="cursos-grid">
+          <div class="curso-card">
+            <div class="curso-icone">🌐</div>
+            <h3>HTML5 e CSS3 na prática</h3>
+            <p>Fundamentos de estruturação e estilização de páginas web.</p>
+            <span class="curso-carga">40h</span>
+          </div>
+
+          <div class="curso-card">
+            <div class="curso-icone">📱</div>
+            <h3>Design Responsivo</h3>
+            <p>Layouts que se adaptam a celulares, tablets e desktops.</p>
+            <span class="curso-carga">20h</span>
+          </div>
+
+          <div class="curso-card">
+            <div class="curso-icone">🔧</div>
+            <h3>Git e GitHub</h3>
+            <p>Controle de versão e colaboração em projetos de código.</p>
+            <span class="curso-carga">15h</span>
+          </div>
+
+          <div class="curso-card">
+            <div class="curso-icone">⚡</div>
+            <h3>Introdução ao JavaScript</h3>
+            <p>Primeiros passos em lógica de programação para a web.</p>
+            <span class="curso-carga">30h</span>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ======================= PROJETOS ======================= -->
+    <section class="projetos" id="projetos">
+      <div class="container">
+        <span class="tag-secao">&lt;meus-projetos&gt;</span>
+        <h2 class="titulo-secao">Projetos</h2>
+        <p class="subtitulo-secao">Alguns trabalhos que desenvolvi para praticar o que aprendi.</p>
+        <div class="projetos-grid">
+          <div class="projeto-card">
+            <div class="projeto-imagem">
+              <img src="https://uploads.onecompiler.io/44zmg33j4/44zmjvkjy/projeto1.svg" alt="Tela do projeto App do Tempo">
+            </div>
+            <div class="projeto-corpo">
+              <h3>App do Tempo</h3>
+              <p>Página que mostra a previsão do tempo com um layout simples e cartões informativos.</p>
+              <div class="projeto-tags">
+                <span>HTML</span>
+                <span>CSS</span>
+                <span>Flexbox</span>
+              </div>
+              <div class="projeto-links">
+                <a href="#">Ver projeto</a>
+                <a href="#">Código-fonte</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="projeto-card">
+            <div class="projeto-imagem">
+              <img src="https://uploads.onecompiler.io/44zmg33j4/44zmjvkjy/projeto2.svg" alt="Tela do projeto Loja Virtual">
+            </div>
+            <div class="projeto-corpo">
+              <h3>Catálogo de Loja Virtual</h3>
+              <p>Vitrine de produtos com cartões organizados em grade e botões de compra.</p>
+              <div class="projeto-tags">
+                <span>HTML</span>
+                <span>CSS</span>
+                <span>Grid</span>
+              </div>
+              <div class="projeto-links">
+                <a href="#">Ver projeto</a>
+                <a href="#">Código-fonte</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="projeto-card">
+            <div class="projeto-imagem">
+              <img src="https://uploads.onecompiler.io/44zmg33j4/44zmjvkjy/projeto3.svg" alt="Tela do projeto Lista de Tarefas">
+            </div>
+            <div class="projeto-corpo">
+              <h3>Lista de Tarefas</h3>
+              <p>Interface para organizar tarefas do dia a dia, separadas por status de conclusão.</p>
+              <div class="projeto-tags">
+                <span>HTML</span>
+                <span>CSS</span>
+              </div>
+              <div class="projeto-links">
+                <a href="#">Ver projeto</a>
+                <a href="#">Código-fonte</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <!-- ======================= CONTATO / RODAPÉ ======================= -->
+  <footer class="contato" id="contato">
+    <div class="container">
+      <span class="tag-secao">&lt;contato&gt;</span>
+      <h2 class="titulo-secao">Vamos conversar?</h2>
+      <p class="subtitulo-secao">Estou aberta a estágios, projetos e trocas de ideia sobre front-end.</p>
+
+      <div class="contato-botoes">
+        <a href="mailto:email@email.edu.br" class="botao botao-primario">Enviar e-mail</a>
+      </div>
+
+      <div class="redes-sociais">
+        <a href="#">GitHub</a>
+        <a href="#">LinkedIn</a>
+        <a href="#">Instagram</a>
+      </div>
+
+      <p class="rodape-texto">&lt;/&gt; feito com HTML e CSS</p>
+    </div>
+  </footer>
+
+  </main>
+  <script src="js/scripts.js"></script>
+</body>
+
+</html>
